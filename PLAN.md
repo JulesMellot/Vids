@@ -21,7 +21,7 @@
 
 ### 1.1 - Project Setup
 
-- [ ] **Initialiser le projet Vite + React + TypeScript**
+- [x] **Initialiser le projet Vite + React + TypeScript**
 
 **Fichiers à créer :**
 ```
@@ -48,7 +48,7 @@ pnpm install
 
 ### 1.2 - Design System CSS
 
-- [ ] **Créer les variables CSS et le design system**
+- [x] **Créer les variables CSS et le design system**
 
 **Fichiers à créer :**
 ```
@@ -92,7 +92,7 @@ src/assets/styles/
 
 ### 1.3 - Fonts & Icons
 
-- [ ] **Intégrer Sora, Lora (Google Fonts) et Phosphor Icons**
+- [x] **Intégrer Sora, Lora (Google Fonts) et Phosphor Icons**
 
 **Fichiers à modifier :**
 - `index.html` : Ajouter liens Google Fonts
@@ -116,7 +116,7 @@ pnpm add @phosphor-icons/react
 
 ### 1.4 - Layout de Base
 
-- [ ] **Créer Searchbar (top) + Navbar squircle (bottom)**
+- [x] **Créer Searchbar (top) + Navbar squircle (bottom)**
 
 **Fichiers à créer :**
 ```
@@ -144,7 +144,7 @@ src/components/layout/
 
 ### 1.5 - Routing
 
-- [ ] **Configurer React Router v6**
+- [x] **Configurer React Router v6**
 
 **Dépendances :**
 ```bash
@@ -190,7 +190,7 @@ src/pages/
 
 ### 1.6 - Backend Setup
 
-- [ ] **Initialiser le serveur Express + TypeScript**
+- [x] **Initialiser le serveur Express + TypeScript**
 
 **Fichiers à créer :**
 ```
@@ -218,7 +218,7 @@ pnpm add -D typescript ts-node-dev @types/express @types/cors
 
 ### 1.7 - Database Setup
 
-- [ ] **Configurer PostgreSQL + schéma initial**
+- [x] **Configurer PostgreSQL + schéma initial**
 
 **Fichiers à créer :**
 ```
@@ -263,7 +263,7 @@ pnpm add -D @types/pg
 
 ### 1.8 - IndexedDB Setup (Dexie)
 
-- [ ] **Configurer Dexie.js pour le stockage local**
+- [x] **Configurer Dexie.js pour le stockage local**
 
 **Dépendances :**
 ```bash
@@ -286,7 +286,7 @@ src/services/db/
 
 ### 2.1 - YouTube Service (youtubei.js)
 
-- [ ] **Intégrer youtubei.js côté serveur**
+- [x] **Intégrer youtubei.js côté serveur**
 
 **Dépendances :**
 ```bash
@@ -315,7 +315,7 @@ GET /api/youtube/trending       → Tendances
 
 ### 2.2 - Video Player
 
-- [ ] **Implémenter le player video.js**
+- [x] **Implémenter le player video.js**
 
 **Dépendances :**
 ```bash
@@ -348,7 +348,7 @@ src/components/video/
 
 ### 2.3 - Video Cards avec Preview
 
-- [ ] **Créer les cards vidéo avec preview au hover**
+- [x] **Créer les cards vidéo avec preview au hover**
 
 **Fichiers à créer :**
 ```
@@ -373,7 +373,7 @@ src/components/video/
 
 ### 2.4 - Infinite Scroll Feed
 
-- [ ] **Implémenter l'infinite scroll pour le feed**
+- [x] **Implémenter l'infinite scroll pour le feed**
 
 **Dépendances :**
 ```bash
@@ -404,7 +404,7 @@ src/hooks/
 
 ### 2.5 - Search (YouTube)
 
-- [ ] **Implémenter la recherche YouTube**
+- [x] **Implémenter la recherche YouTube**
 
 **Fichiers à créer :**
 ```
@@ -432,7 +432,7 @@ GET /api/youtube/search?q=...&type=video|channel|playlist
 
 ### 2.6 - Import Abonnements CSV
 
-- [ ] **Permettre l'import de subscriptions via CSV Google Takeout**
+- [x] **Permettre l'import de subscriptions via CSV Google Takeout**
 
 **Fichiers à créer :**
 ```
@@ -456,7 +456,7 @@ UC...,https://youtube.com/channel/UC...,Channel Name
 
 ### 2.7 - Système de Dossiers
 
-- [ ] **Créer la gestion des dossiers/catégories**
+- [x] **Créer la gestion des dossiers/catégories**
 
 **Fichiers à créer :**
 ```

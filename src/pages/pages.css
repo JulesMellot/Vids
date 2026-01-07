@@ -1,0 +1,83 @@
+/* ===========================================
+   Page Styles - Shared
+   =========================================== */
+
+.page {
+    animation: fadeIn var(--transition-default) forwards;
+}
+
+.page__header {
+    margin-bottom: var(--space-lg);
+}
+
+.page__title {
+    font-size: var(--text-2xl);
+    font-weight: var(--weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+}
+
+.page__description {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+}
+
+/* Placeholder content for empty pages */
+.page__placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: var(--space-xxl);
+    min-height: 300px;
+
+    background: var(--bg-secondary);
+    border: 1px dashed var(--border-default);
+    border-radius: var(--radius-lg);
+}
+
+.page__placeholder-icon {
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-md);
+}
+
+.page__placeholder-text {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.page__placeholder-subtext {
+    font-size: var(--text-sm);
+    color: var(--text-tertiary);
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscriptions-content-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 24px;
+    padding: 0 24px;
+}
+
+.subscriptions-main {
+    background: var(--bg-tertiary);
+    border-radius: 16px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .subscriptions-content-grid {
+        grid-template-columns: 1fr;
+    }
+}

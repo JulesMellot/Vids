@@ -1,0 +1,36 @@
+/* ===========================================
+   Icon Component Styles
+   =========================================== */
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: color var(--transition-fast);
+}
+
+.icon--xs {
+    width: 16px;
+    height: 16px;
+}
+
+.icon--sm {
+    width: 20px;
+    height: 20px;
+}
+
+.icon--md {
+    width: 24px;
+    height: 24px;
+}
+
+.icon--lg {
+    width: 32px;
+    height: 32px;
+}
+
+.icon--xl {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,99 @@
+/* ===========================================
+   VIDS - CSS Variables & Design Tokens
+   =========================================== */
+
+:root {
+  /* ============ BACKGROUND ============ */
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #14141f;
+  --bg-tertiary: #1e1e2e;
+  --bg-elevated: rgba(30, 30, 46, 0.8);
+  
+  /* ============ TEXT ============ */
+  --text-primary: #e8e8f0;
+  --text-secondary: #a0a0b8;
+  --text-tertiary: #6e6e88;
+  --text-inverse: #0a0a0f;
+  
+  /* ============ ACCENT ============ */
+  --accent-primary: #7c7cf5;
+  --accent-hover: #9090f7;
+  --accent-muted: #5555c5;
+  --accent-subtle: rgba(124, 124, 245, 0.15);
+  
+  /* ============ SEMANTIC ============ */
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-error: #f87171;
+  --color-info: #60a5fa;
+  
+  /* ============ SPONSOR BLOCK ============ */
+  --sponsor-sponsor: #00d400;
+  --sponsor-selfpromo: #ffff00;
+  --sponsor-interaction: #cc00ff;
+  --sponsor-intro: #00ffff;
+  --sponsor-outro: #0202ed;
+  --sponsor-preview: #008fd6;
+  --sponsor-filler: #7300ff;
+  --sponsor-music: #ff9900;
+  
+  /* ============ BORDERS ============ */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.1);
+  --border-emphasis: rgba(255, 255, 255, 0.15);
+  
+  /* ============ SPACING ============ */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --space-xxxl: 64px;
+  
+  /* ============ BORDER RADIUS ============ */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-squircle: 32px;
+  --radius-full: 9999px;
+  
+  /* ============ SHADOWS ============ */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 20px rgba(124, 124, 245, 0.3);
+  
+  /* ============ TRANSITIONS ============ */
+  --transition-fast: 150ms ease;
+  --transition-default: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  
+  /* ============ Z-INDEX ============ */
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+  --z-tooltip: 500;
+  --z-overlay: 900;
+  --z-max: 999;
+  
+  /* ============ LAYOUT ============ */
+  --navbar-height: 72px;
+  --searchbar-height: 64px;
+  --mini-player-width: 320px;
+  --mini-player-height: 180px;
+  --sidebar-width: 280px;
+  --max-content-width: 1400px;
+  
+  /* ============ GLASSMORPHISM ============ */
+  --glass-bg: rgba(20, 20, 31, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 16px;
+}
