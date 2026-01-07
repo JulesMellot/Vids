@@ -2,7 +2,7 @@
 
 **Version :** 1.0  
 **Date :** 2026-01-07  
-**Statut :** Draft - En attente de validation
+**Statut :** Validé
 
 ---
 
